@@ -1,0 +1,26 @@
+{
+  "name": "node_x",
+  "version": "1.0.0",
+  "description": "A little exercise using a Star Wars API and express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/gosolo/challenges/node-exercise.git"
+  },
+  "author": "Michael Collins <intervalia@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/gosolo/challenges/node-exercise/issues"
+  },
+  "homepage": "https://gitlab.com/gosolo/challenges/node-exercise#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
